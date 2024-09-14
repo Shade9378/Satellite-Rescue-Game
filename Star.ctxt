@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Star
+comment1.params=simCanvas
+comment1.target=Star(Canvas)
+comment2.params=simCanvas\ xPos\ yPos
+comment2.target=Star(Canvas,\ int,\ int)
+numComments=3
