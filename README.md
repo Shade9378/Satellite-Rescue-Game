@@ -1,9 +1,9 @@
-PROJECT TITLE: Satellite Rescue Game
+# Satellite Rescue Game
 
-DESCRIPTION:
+## <ins>DESCRIPTION:</ins>
 The game requires a space shuttle to launch a fuel cell, which will dock with an orbiting space station. Due to a low fuel supply, the space station has entered a state of unplanned orbital descent and will eventually crash to the earth, if it does not receive a new supply of fuel soon.
 
-Prototype specification: 
+### Prototype specification: 
 - Choosing level of difficulty: The game will provide an option for user selection of a level of difficulty, beginner (B), intermediate (I), or advanced (A). The level determines the speed at which the space station is orbiting.
 
 - The Space Station: The space station is a Diamond object. It has a fueling port, namely the lowest vertex of the diamond. Space station movement begins at a random horizontal location and a vertical location of 0. To simulate orbiting, the space station will move left-to-right on a downward sloping line across the window, disappearing on the right side of the window and reappearing on the left side. Each new orbit will begin at a slightly lower level that the previous orbit. The color of the space station changes from green to yellow after one orbit, indicating a low fuel supply. After two orbits it turns to red, and stays red until it is refueled or crashes.
@@ -20,7 +20,7 @@ Pressing the space bar will launch a fuel cell, a blue ball (Circle object), fro
 
 - Starting and stopping the simulation: Pressing the 'S' key will start the simulation and pressing the 'X' key will stop it.
 
-USER INSTRUCTIONS:
+## <ins>USER INSTRUCTIONS:</ins>
 !!! To run the game, you will need to have the Java Runtime Environment installed.
 - Open Terminal
 - Navigate to the directory where you saved the project source code using the “cd” command.
